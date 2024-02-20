@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            LUNAR ECLIPSE
+        </title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                background-color: black;
+                overflow: hidden;
+            }
+.circle1 {
+  
+width:250px;
+height: 250px;
+background-color: white;
+position: absolute;
+left: 50%;
+top: 50%;
+border-radius: 50%;
+box-shadow: 0 0 50px rgba(219, 230, 224, 1);
+background-color: white;
+
+    
+}
+.circle2
+{
+position: absolute;
+width: 250px;
+height: 250px;
+left: 10px;
+top: 50%;
+border-radius: 50%;
+background-color: black;
+animation-name: eclipse;
+animation-duration: 50s;
+}
+
+@keyframes eclipse {
+    0%{left:40%; }
+    90%{left:80%; }
+}
+
+
+    </style>
+    </head>
+    <body>
+        
+        <div class="circle1"></div>
+     <div class="circle2" ></div>
+   
+    </body>
+</html>
